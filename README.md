@@ -3,7 +3,7 @@
 ![Title Image](/graphics/title.jpg)
 
 ## Introduction
-This project focuses on analyzing and optimizing digital marketing strategies using a comprehensive dataset that includes customer demographics, engagement metrics, and campaign interactions. The goal is to understand the key factors driving customer conversions, segment customers for targeted marketing, and evaluate the effectiveness of various marketing campaigns. The full notebook and analysis can be found [here](https://shanereichlin.com/digital-marketing-conversion/docs/digital_marketing_conversion.html).
+This project focuses on analyzing and optimizing digital marketing strategies using a comprehensive dataset that includes customer demographics, engagement metrics, and campaign interactions. The goal is to understand the key factors driving customer conversions, segment customers for targeted marketing, and evaluate the effectiveness of various marketing campaigns. The full notebook and analysis can be found [here](https://shanereichlin.com/digital-marketing-conversion/docs/digital_marketing_conversion.html){:target="_blank"}.
 
 ## Exploratory Data Analysis (EDA)
 We started by performing exploratory data analysis to understand the distribution and relationships of the features in our dataset:
@@ -88,5 +88,5 @@ Several areas for future exploration were identified:
 This project provided valuable insights into customer behavior and marketing strategies. The predictive model, customer segmentation, and campaign effectiveness analysis offer a comprehensive approach to optimizing digital marketing efforts. Future work will focus on refining these strategies through advanced techniques and A/B testing to drive even greater marketing success.
 
 ## Links
-- [Project Notebook](https://shanereichlin.com/digital-marketing-conversion/docs/digital_marketing_conversion.html)
-- [Project Repository](https://github.com/ShaneR31/digital-marketing-conversion)
+- [Project Notebook](https://shanereichlin.com/digital-marketing-conversion/docs/digital_marketing_conversion.html){:target="_blank"}
+- [Project Repository](https://github.com/ShaneR31/digital-marketing-conversion){:target="_blank"}

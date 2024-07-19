@@ -1,19 +1,19 @@
 # Digital Marketing Campaign Analysis
 
-![Title Image](../graphics/title.jpg)
+![Title Image](/graphics/title.jpg)
 
 ## Introduction
-This project focuses on analyzing and optimizing digital marketing strategies using a comprehensive dataset that includes customer demographics, engagement metrics, and campaign interactions. The goal is to understand the key factors driving customer conversions, segment customers for targeted marketing, and evaluate the effectiveness of various marketing campaigns. The full notebook and analysis can be found [here](URL).
+This project focuses on analyzing and optimizing digital marketing strategies using a comprehensive dataset that includes customer demographics, engagement metrics, and campaign interactions. The goal is to understand the key factors driving customer conversions, segment customers for targeted marketing, and evaluate the effectiveness of various marketing campaigns. The full notebook and analysis can be found [https://shanereichlin.com/digital-marketing-conversion/docs/digital_marketing_conversion.html](URL).
 
 ## Exploratory Data Analysis (EDA)
 We started by performing exploratory data analysis to understand the distribution and relationships of the features in our dataset:
 - **Numerical Features**: Key features such as Age, Income, AdSpend, ConversionRate, and WebsiteVisits were visualized to understand their distributions. Most features showed relatively uniform distributions, indicating a diverse customer base and varied marketing efforts.
 
-![Numerical Features Distribution](../graphics/numDists.png)
+![Numerical Features Distribution](/graphics/numDists.png)
 
 - **Categorical Features**: Features like Gender, CampaignChannel, and CampaignType were analyzed to understand the composition of the dataset. The analysis showed a balanced use of different marketing channels and campaign types.
 
-![Categorical Features Distribution](../graphics/catDists.png)
+![Categorical Features Distribution](/graphics/catDists.png)
 
 ## Feature Engineering
 We created new features to enhance the predictive power of our model, these include:
@@ -34,7 +34,7 @@ A correlation matrix was created to identify relationships between features. The
 - **Negative Correlations**:
   - **AdSpendPerClick and Conversion**: Higher ad spend per click showed a weaker, negative correlation with conversion, indicating that simply increasing ad spend may not directly lead to higher conversions.
 
-![Correlation Matrix](../graphics/corrMatrix.png)
+![Correlation Matrix](/graphics/corrMatrix.png)
 
 ## Predicting Customer Conversion
 ### Data Preprocessing
@@ -48,11 +48,11 @@ The final model's performance was evaluated using various metrics:
 |---------|----------|-----------|----------|----------|---------|
 | XGBoost | 0.927917 | 0.927402  | 0.995722 | 0.960348 | 0.803918|
 
-![Confusion Matrix](../graphics/confusionMatrix.png)
+![Confusion Matrix](/graphics/confusionMatrix.png)
 
 - **Confusion Matrix**: High true positives and low false negatives indicated the model's effectiveness in predicting conversions.
 
-![ROC Curve](../graphics/roc.png)
+![ROC Curve](/graphics/roc.png)
 
 - **ROC Curve**: The AUC value of 0.80 indicated good performance in distinguishing between converted and non-converted customers.
 
@@ -60,7 +60,7 @@ The final model's performance was evaluated using various metrics:
 ### Clustering Analysis
 We used K-Means clustering to segment customers based on engagement and demographic features. The clusters were visualized using PCA, and the analysis revealed distinct customer segments, allowing for tailored marketing strategies.
 
-![PCA Clusters](../graphics/pca.png)
+![PCA Clusters](/graphics/pca.png)
 
 ### Cluster Evaluation
 - **Silhouette Score**: 0.19
@@ -88,5 +88,5 @@ Several areas for future exploration were identified:
 This project provided valuable insights into customer behavior and marketing strategies. The predictive model, customer segmentation, and campaign effectiveness analysis offer a comprehensive approach to optimizing digital marketing efforts. Future work will focus on refining these strategies through advanced techniques and A/B testing to drive even greater marketing success.
 
 ## Links
-- [Project Notebook](URL_to_notebook)
-- [Project Repository](URL_to_repository)
+- [Project Notebook](https://shanereichlin.com/digital-marketing-conversion/docs/digital_marketing_conversion.html)
+- [Project Repository](https://github.com/ShaneR31/digital-marketing-conversion)
